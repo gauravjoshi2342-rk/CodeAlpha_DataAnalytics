@@ -1,0 +1,13 @@
+Task 4: Sentiment Analysis
+Goal: Automatically classify each review as Positive, Negative, or Neutral, and turn that into insights a business could actually use.
+What's inside:
+
+Used VADER (a lexicon-based NLP sentiment tool built for short, informal text like reviews)
+Classified all 999 reviews and validated the results against actual star ratings (they line up well — sentiment score rises steadily from 1★ to 5★)
+Built word clouds to see which words drive positive vs. negative sentiment
+Tracked sentiment trend over time to spot shifts in customer opinion early
+Identified specific products with lower average sentiment, even when their star rating looked fine
+Summarized everything into business recommendations for marketing, product development, and customer support
+
+Tools used: Python, VADER Sentiment, WordCloud, Pandas, Matplotlib, Seaborn
+Key takeaway: Public sentiment is broadly positive, but the negative segment (roughly 1 in 5–6 reviews) contains clear, recurring themes — a goldmine for product and support teams to act on.
